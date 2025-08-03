@@ -12,6 +12,10 @@ function agregarAmigo() {
 
     }else{
         amigos.push(nombreamigo); 
+        let lista = document.getElementById('listaAmigos');
+        let nuevoAmigo = document.createElement('li');
+        nuevoAmigo.textContent = nombreamigo;
+        lista.appendChild(nuevoAmigo);
         limpiarCaja();
     }
 }
