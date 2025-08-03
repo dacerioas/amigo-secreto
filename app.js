@@ -2,11 +2,11 @@
 let amigos =[];
 
 function limpiarCaja(){
-    document.getElementById('nombre').value = '';
+    document.getElementById('amigo').value = '';
 }
 
-function agregarAmigo(nombre) {
-    let nombreamigo = document.getElementById('nombre').value;
+function agregarAmigo() {
+    let nombreamigo = document.getElementById('amigo').value;
     if (nombreamigo == ''){
         alert(' Favor ingresar un nombre');
 
