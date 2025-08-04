@@ -22,12 +22,12 @@ function agregarAmigo() {
             //Crea un bucle para revisar cada elemento del array
         let nuevoAmigo = document.createElement('li');
         //Crea un nuevo elemento de lista
-        nuevoAmigo.textContent = amigos[i];
+        nuevoAmigo.textContent = nombreamigo;
         //Muestra el nombre del amigo en la lista
         lista.appendChild(nuevoAmigo);
+        }
         console.log(amigos)
         limpiarCaja();
-        }
     }
 }
 
