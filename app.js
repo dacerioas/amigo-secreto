@@ -31,7 +31,7 @@ function agregarAmigo() {
     }
 }
 
-function generarAmigoSecreto() {
+function sortearAmigo() {
    let resultadoElemento = document.getElementById('resultado');
 //Aca selecciona el elemento del HTML con el id resultado
    if (amigos.length <= 1){
