@@ -7,17 +7,21 @@ function limpiarCaja(){
 }
 
 function agregarAmigo() {
-    let nombreamigo = document.getElementById('amigo').value;
-    if (nombreamigo == ''){
+    let nombreAmigoInput = document.getElementById('amigo').value;
+    let nombreAmigo = nombreAmigoInput.trim();
+    //Variable para limpiar espacios en blanco
+    if (nombreAmigo == ''){
         alert(' Favor ingresar un nombre');
 
+        if(amigos.includes(nombreAmigo)){
+            alert('El nombre ya existe en la lista');
     }else{
         //Agrego el elemento nuevo al array
-        amigos.push(nombreamigo); 
+        amigos.push(nombreAmigo); 
         //Seguro de limpieza de lista 
         lista.innerHTML = '';
         //Crea nuevo elemento de lista
-        for(let i =0; i<amigos.length ; i++){
+        for (let i = 0; i < amigos.length ; i++){
             //Crea un bucle para revisar cada elemento del array
         let nuevoAmigo = document.createElement('li');
         //Crea un nuevo elemento de lista
@@ -27,6 +31,7 @@ function agregarAmigo() {
         }
         console.log(amigos)
         limpiarCaja();
+    }
     }
 }
 
