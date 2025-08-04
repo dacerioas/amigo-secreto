@@ -12,10 +12,14 @@ function agregarAmigo() {
     //Variable para limpiar espacios en blanco
     if (nombreAmigo == ''){
         alert(' Favor ingresar un nombre');
+        return;
+    }
 
         if(amigos.includes(nombreAmigo)){
             alert('El nombre ya existe en la lista');
-    }else{
+            return;
+        }
+
         //Agrego el elemento nuevo al array
         amigos.push(nombreAmigo); 
         //Seguro de limpieza de lista 
@@ -32,8 +36,7 @@ function agregarAmigo() {
         console.log(amigos)
         limpiarCaja();
     }
-    }
-}
+    
 
 function sortearAmigo() {
    let resultadoElemento = document.getElementById('resultado');
