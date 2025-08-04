@@ -1,5 +1,6 @@
 // Primera parte del desafío
 let amigos =[];
+ let lista = document.getElementById('listaAmigos');
 
 function limpiarCaja(){
     document.getElementById('amigo').value = '';
@@ -13,8 +14,6 @@ function agregarAmigo() {
     }else{
         //Agrego el elemento nuevo al array
         amigos.push(nombreamigo); 
-        // Determina la variable lista con el id del elemento HTML de la lista
-        let lista = document.getElementById('listaAmigos');
         //Seguro de limpieza de lista 
         lista.innerHTML = '';
         //Crea nuevo elemento de lista
@@ -41,6 +40,7 @@ function sortearAmigo() {
    }
 //Hace un sorteo con el indice
     let indice = Math.floor(Math.random() * amigos.length);
+    lista.innerHTML = '';
     //Sortea el nombre a partir del indice
     resultadoElemento.innerHTML = (`Tu amigo secreto es:${amigos[indice]}`);
 }
