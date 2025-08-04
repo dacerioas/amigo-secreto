@@ -14,8 +14,9 @@ function agregarAmigo() {
         alert(' Favor ingresar un nombre');
         return;
     }
-        let nombreNormalizado = nombreAmigo.tolowerCase();
-        let nombreExistente = amigos.some (amigo => amigo.tolowerCase() === nombreNormalizado); 
+        let nombreNormalizado = nombreAmigo.toLowerCase();
+        let nombreExistente = amigos.some (amigo => amigo.toLowerCase() === nombreNormalizado); 
+
         if (nombreExistente){
             alert('El nombre ya aparece en la lista');
             return;
