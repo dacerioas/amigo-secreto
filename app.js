@@ -31,3 +31,16 @@ function agregarAmigo() {
     }
 }
 
+function generarAmigoSecreto() {
+   let resultadoElemento = document.getElementById('resultado');
+//Aca selecciona el elemento del HTML con el id resultado
+   if (amigos.length <= 1){
+   resultadoElemento.innerHTML = 'No hay suficientes amigos para elegir';
+    return;
+    //Verifica si hay al menos dos amigos en la lista
+   }
+//Hace un sorteo con el indice
+    let indice = Math.floor(Math.random() * amigos.length);
+    //Sortea el nombre a partir del indice
+    resultadoElemento.innerHTML = (`Tu amigo secreto es:${amigos[indice]}`);
+}
