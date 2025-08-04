@@ -1,6 +1,13 @@
 <h1 align="center"> Juego Amigo Secreto </h1>
-***
-Esta es una aplicación web sencilla para realizar un sorteo de **amigo secreto**.
+*** 
+Aplicación web sencilla que permite realizar sorteos tipo "amigo secreto". Ideal para fiestas, eventos familiares o para practicar lógica básica con JavaScript.
+
+## ✨ Características
+- Agrega participantes a una lista.
+- Evita duplicados.
+- Sortea un nombre al azar.
+- Validación básica de inputs.
+- Interfaz amigable y funcional.
 
 ## 🧩 ¿Cómo funciona?
 
@@ -17,3 +24,9 @@ Esta es una aplicación web sencilla para realizar un sorteo de **amigo secreto*
 ## 📌 Objetivo
 
 Este proyecto fue desarrollado con fines didácticos y forma parte de mi portafolio personal. Está pensado para practicar manejo de arrays, interacción con el DOM y lógica básica de sorteo.
+
+## 🔮 Futuras mejoras
+- Permitir sortear a todos los participantes (como un verdadero "amigo secreto").
+- Evitar que alguien se asigne a sí mismo.
+- Estilo responsive con CSS o Tailwind.
+- Exportar resultados en PDF o enviarlos por correo.
