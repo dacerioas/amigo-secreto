@@ -7,9 +7,8 @@ Aplicación web sencilla que permite realizar sorteos tipo "amigo secreto". Idea
 
 ## Vista previa
 <p align="center">
-  <img src="vista-previa.png" alt="Ejemplo" width="200">
+  <img src="assets/vista-previa.png" alt="Ejemplo de la app" width="300">
 </p>
-
 
 ## ✨ Características
 - Agrega participantes a una lista.
