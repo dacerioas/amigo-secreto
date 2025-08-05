@@ -5,6 +5,10 @@
 *** 
 Aplicación web sencilla que permite realizar sorteos tipo "amigo secreto". Ideal para fiestas, eventos familiares o para practicar lógica básica con JavaScript.
 
+## Vista previa
+![Captura del proyecto](vista-previa.png)
+
+
 ## ✨ Características
 - Agrega participantes a una lista.
 - Evita duplicados.
