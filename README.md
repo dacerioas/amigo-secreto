@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/amigo-secreto.png" alt="Logo del proyecto" width="200">
+</p>
 <h1 align="center"> Juego Amigo Secreto </h1>
 *** 
 Aplicación web sencilla que permite realizar sorteos tipo "amigo secreto". Ideal para fiestas, eventos familiares o para practicar lógica básica con JavaScript.
