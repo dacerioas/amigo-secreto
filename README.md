@@ -21,34 +21,34 @@ Aplicación web sencilla que permite realizar sorteos tipo "amigo secreto". Idea
   <img src="assets/vista-previa.png" alt="Ejemplo de la app" width="300">
 </p>
 
-## ✨ Características
+## Características
 - Agrega participantes a una lista.
 - Evita duplicados.
 - Sortea un nombre al azar.
 - Validación básica de inputs.
 - Interfaz amigable y funcional.
 
-## 🧩 ¿Cómo funciona?
+## ¿Cómo funciona?
 
 1. Ingresa los nombres de todos tus amigos (mínimo 2)
 2.  Cada nombre se añade a una lista visible.
 3. Al presionar el botón **"Sortear amigo"**, se selecciona un participante al azar.
 
-## 🛠️ Tecnologías usadas
+## Tecnologías usadas
 
 - HTML5
 - CSS (si aplica)
 - JavaScript Vanilla (sin frameworks)
 
-## 📌 Objetivo
+## Objetivo
 
 Este proyecto fue desarrollado con fines didácticos y forma parte de mi portafolio personal. Está pensado para practicar manejo de arrays, interacción con el DOM y lógica básica de sorteo.
 
-## 🔮 Futuras mejoras
+## Futuras mejoras
 - Permitir sortear a todos los participantes (como un verdadero "amigo secreto").
 - Evitar que alguien se asigne a sí mismo.
 - Estilo responsive con CSS o Tailwind.
 - Exportar resultados en PDF o enviarlos por correo.
 
-## 🎨 Autor
+## Autor
 Desarrollado en base al curso de Oracle, Allura Latam, por la estudiante [Daniella Cedeño Arias](https://github.com/dacerioas)
