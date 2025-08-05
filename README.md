@@ -6,7 +6,7 @@
 *** 
 Aplicación web sencilla que permite realizar sorteos tipo "amigo secreto". Ideal para fiestas, eventos familiares o para practicar lógica básica con JavaScript.
 
-##Índice
+<h2 align="center">🧭 Índice</h2>
 * [Vista previa](#vista-previa)
 * [Características](#caracteristicas)
 * [¿Cómo funciona?](#como-funciona)
