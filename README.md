@@ -7,13 +7,13 @@
 Aplicación web sencilla que permite realizar sorteos tipo "amigo secreto". Ideal para fiestas, eventos familiares o para practicar lógica básica con JavaScript.
 
 ##Índice
-*[Vista previa](#Vista-previa)
-*[Características](#características)
-*[¿Cómo funciona?](#¿Cómo-funciona?)
-*[ Tecnologías usadas](#Tecnologías-usadas)
-*[Objetivo](#Objetivo)
-*[Futuras mejoras](#Futuras-mejoras)
-*[Autor](#Autor)
+* [Vista previa](#vista-previa)
+* [Características](#caracteristicas)
+* [¿Cómo funciona?](#como-funciona)
+* [ Tecnologías usadas](#tecnologias-usadas)
+* [Objetivo](#objetivo)
+* [Futuras mejoras](#futuras-mejoras)
+* [Autor](#autor)
 
 ## Vista previa
 <p align="center">
