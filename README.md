@@ -1,21 +1,19 @@
-/* Modo claro */
-body {
-  background-color: #ffffff;
-  color: #000000;
-}
 
-/* Modo oscuro según preferencia del usuario */
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #000000;
-    color: #ffffff;
-}
 <p align="center">
   <img src="assets/amigo-secreto.png" alt="Logo del proyecto" width="200">
 </p>
 <h1 align="center"> Juego Amigo Secreto </h1>
 *** 
 Aplicación web sencilla que permite realizar sorteos tipo "amigo secreto". Ideal para fiestas, eventos familiares o para practicar lógica básica con JavaScript.
+
+##Índice
+*[Vista previa](#Vista-previa)
+*[Características](#características)
+*[¿Cómo funciona?](#¿Cómo-funciona?)
+*[ Tecnologías usadas](#Tecnologías-usadas)
+*[Objetivo](#Objetivo)
+*[Futuras mejoras](#Futuras-mejoras)
+*[Autor](#Autor)
 
 ## Vista previa
 <p align="center">
