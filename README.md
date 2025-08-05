@@ -1,3 +1,15 @@
+/* Modo claro */
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Modo oscuro según preferencia del usuario */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000000;
+    color: #ffffff;
+}
 <p align="center">
   <img src="assets/amigo-secreto.png" alt="Logo del proyecto" width="200">
 </p>
@@ -38,3 +50,6 @@ Este proyecto fue desarrollado con fines didácticos y forma parte de mi portafo
 - Evitar que alguien se asigne a sí mismo.
 - Estilo responsive con CSS o Tailwind.
 - Exportar resultados en PDF o enviarlos por correo.
+
+## 🎨 Autor
+Desarrollado en base al curso de Oracle, Allura Latam, por la estudiante [Daniella Cedeño Arias](https://github.com/dacerioas)
