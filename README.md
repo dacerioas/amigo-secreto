@@ -16,7 +16,8 @@ Aplicación web sencilla que permite realizar sorteos tipo "amigo secreto". Idea
   <a href="#futuras-mejoras"> Futuras mejoras</a> •
   <a href="#autor"> Autor</a>
 </p>
-## Vista previa
+
+##  Vista previa
 <p align="center">
   <img src="assets/vista-previa.png" alt="Ejemplo de la app" width="300">
 </p>
