@@ -26,14 +26,16 @@ function agregarAmigo() {
 
         //Agrego el elemento nuevo al array
         amigos.push(nombreAmigo); 
-        //Seguro de limpieza de lista 
+        //Borra todo el contenido que había dentro del elemento HTML llamado lista.innerHTML = '';
         lista.innerHTML = '';
         //Crea nuevo elemento de lista
         for (let i = 0; i < amigos.length ; i++){
             //Crea un bucle para revisar cada elemento del array
         let nuevoAmigo = document.createElement('li');
+         //'li'se usan para representar ítems dentro de una lista.
         //Crea un nuevo elemento de lista
         nuevoAmigo.textContent = amigos[i];
+         //.textContent Sirve para poner o leer el texto que va dentro de una etiqueta.
         //Muestra el nombre del amigo en la lista
         lista.appendChild(nuevoAmigo);
         }
@@ -57,3 +59,4 @@ function sortearAmigo() {
     resultadoElemento.innerHTML = (`Tu amigo secreto es:${amigos[indice]}`);
 
 }
+
