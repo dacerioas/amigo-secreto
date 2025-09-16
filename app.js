@@ -8,14 +8,16 @@ function limpiarCaja(){
 
 function agregarAmigo() {
     let nombreAmigoInput = document.getElementById('amigo').value;
+    // Obtiene lo que el usuario escribió en el input con id="amigo"
     let nombreAmigo = nombreAmigoInput.trim();
-    //Variable para limpiar espacios en blanco
+    //Usa .trim() para limpiar espacios en blanco
     if (nombreAmigo == ''){
         alert(' Favor ingresar un nombre');
         return;
     }
         let nombreNormalizado = nombreAmigo.toLowerCase();
         let nombreExistente = amigos.some (amigo => amigo.toLowerCase() === nombreNormalizado); 
+          //El método .some() recorre todo el arreglo amigos y evalúa una condición.
 
         if (nombreExistente){
             alert('El nombre ya aparece en la lista');
@@ -53,4 +55,5 @@ function sortearAmigo() {
     lista.innerHTML = '';
     //Sortea el nombre a partir del indice
     resultadoElemento.innerHTML = (`Tu amigo secreto es:${amigos[indice]}`);
+
 }
